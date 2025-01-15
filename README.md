@@ -1,9 +1,17 @@
 # Yeonhui's Portfolio
 <div style="display: flex; align-items: center;">
 <img src="https://raw.githubusercontent.com/yeonhui94/portfolio/master/image.jpg" alt="Portfolio Image" width="300" />
+  <div>
+    
 ## 소개
-안녕하세요. 이 포트폴리오는 제가 학습하고 작업했던 프로젝트의 과정 기술들을 소개합니다.
+- **이름** : 조연희
+- **나이** : 1994.12.26
+- **학력** : 경인여자대학교 졸업 (2013.03~2018.02)
+- **교육연수** : 소프트웨어인재개발원(2024.06.26~2024.12.17)
+- **기타** : 영어 및 중국어 회화 가능
 </div>
+</div>
+
 ## 프로젝트
 ### 1. KKOMO ADOPT - 유기견 입양 홈페이
 - **역할**: 풀스택 개발 (프론트엔드, 백엔드, 데이터베이스, 버전관리, API연동)
