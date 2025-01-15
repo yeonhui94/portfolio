@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td style="width: 300px; text-align: center;">
-      <img src="https://i.imgur.com/cbv3fvx.jpeg" alt="Portfolio Image" width="250" />
+      <img src="https://i.imgur.com/YXsGXcx.jpeg" alt="Portfolio Image" width="250" />
     </td>
     <td>
       <h2>소개</h2>
