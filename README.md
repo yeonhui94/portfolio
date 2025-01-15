@@ -1,17 +1,21 @@
 # Yeonhui's Portfolio
 <div style="display: flex; align-items: center;">
+  <!-- 왼쪽 이미지 -->
+  <div style="margin-right: 20px;">
+    <img src="https://raw.githubusercontent.com/yeonhui94/portfolio/master/image.jpg" alt="Portfolio Image" width="300" />
+  </div>
+  
+  <!-- 오른쪽 소개 -->
   <div>
-<img src="https://raw.githubusercontent.com/yeonhui94/portfolio/master/image.jpg" alt="Portfolio Image" width="300" />
-    </div>
-  <div>
-    
-## 소개
-- **이름** : 조연희
-- **나이** : 1994.12.26
-- **학력** : 경인여자대학교 졸업 (2013.03~2018.02)
-- **교육연수** : 소프트웨어인재개발원(2024.06.26~2024.12.17)
-- **기타** : 영어 및 중국어 회화 가능
-</div>
+    <h2>소개</h2>
+    <ul>
+      <li><strong>이름</strong>: 조연희</li>
+      <li><strong>나이</strong>: 1994.12.26</li>
+      <li><strong>학력</strong>: 경인여자대학교 졸업 (2013.03~2018.02)</li>
+      <li><strong>교육연수</strong>: 소프트웨어인재개발원 (2024.06.26~2024.12.17)</li>
+      <li><strong>기타</strong>: 영어 및 중국어 회화 가능</li>
+    </ul>
+  </div>
 </div>
 
 ## 프로젝트
