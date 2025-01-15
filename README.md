@@ -1,4 +1,5 @@
 # Yeonhui's Portfolio
+![Image Description](https://raw.githubusercontent.com/yeonhui94/portfolio/master/image.jpg)
 ## 소개
 안녕하세요. 이 포트폴리오는 제가 학습하고 작업했던 프로젝트의 과정 기술들을 소개합니다.
 ## 프로젝트
