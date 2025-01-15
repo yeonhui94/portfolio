@@ -1,6 +1,8 @@
 # Yeonhui's Portfolio
 <div style="display: flex; align-items: center;">
+  <div>
 <img src="https://raw.githubusercontent.com/yeonhui94/portfolio/master/image.jpg" alt="Portfolio Image" width="300" />
+    </div>
   <div>
     
 ## 소개
