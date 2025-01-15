@@ -24,6 +24,8 @@
 
 ## 프로젝트
 ### 1. KKOMO ADOPT - 유기견 입양 홈페이지 (https://github.com/yeonhui94/kkomoadopt)
+(클릭시 동영상 보임)
+[![Vimeo Video Thumbnail](https://vumbnail.com/1047003421.jpg)](https://vimeo.com/1047003421)
 - **역할**: 풀스택 개발 (프론트엔드, 백엔드, 데이터베이스, 버전관리, API연동)
 - **설명**: 유기견 보호소 정보 제공, 유기견 입양 절차 간소화, 유기견 입양 활성화, 정보 접근성 향상
 
