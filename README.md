@@ -1,8 +1,8 @@
-[# Yeonhui's Portfolio
+# Yeonhui's Portfolio
 <table>
   <tr>
     <td style="width: 300px; text-align: center;">
-      <img src="https://raw.githubusercontent.com/yeonhui94/image/main/image.jpg" alt="Portfolio Image" width="250" />
+      <img src="https://i.imgur.com/cbv3fvx.jpeg" alt="Portfolio Image" width="250" />
     </td>
     <td>
       <h2>소개</h2>
@@ -14,7 +14,7 @@
         <li><strong>경력사항</strong>:
             <ul>
               <li><strong>효성ITX (2021.09~2024.02)</strong>: 영어 및 중국어 상담</li>
-              <li><strong>솔레어카지노</strong>: 한국어 통역 번역 및 중국어 통역 번역칩스 교환 및 정산, 현금 입출금 관리</li>
+              <li><strong>솔레어카지노(2016.10~2018.12)</strong>: 한국어 통역 번역 및 중국어 통역 번역칩스 교환 및 정산, 현금 입출금 관리</li>
             </ul>
         </li> 
       </ul>
