@@ -2,7 +2,7 @@
 <table>
   <tr>
     <td style="width: 300px; text-align: center;">
-      <img src="https://raw.githubusercontent.com/yeonhui94/portfolio/master/image.jpg" alt="Portfolio Image" width="250" />
+      <img src="https://raw.githubusercontent.com/yeonhui94/image/main/image.jpg" alt="Portfolio Image" width="250" />
     </td>
     <td>
       <h2>소개</h2>
