@@ -1,0 +1,152 @@
+/* 기본 레이아웃 (큰 화면에서)
+// MyPage에서 그대로 들고온거라서 수정 필요함
+   Profile은 왼쪽, mpsmallWrapper는 오른쪽에 배치 */
+   .mpWrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr; /* Profile과 mpsmallWrapper의 비율을 2:3으로 설정 */
+    gap: 20px; /* 두 영역 사이에 간격 설정 */
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .mpsmallWrapper {
+    display: flex;
+    flex-direction: column;
+    grid-column: 2;
+    padding: 30px;
+    gap: 20px;
+  }
+  
+  .Profile {
+    grid-column: 1; /* 첫 번째 열에 배치 */
+  }
+  
+  /* mpcontainer는 그리드 컨테이너 */
+  .mpcontainer {
+    display: grid; /* 그리드 레이아웃 활성화 */
+    grid-template-columns: 1fr; /* 기본적으로 한 열로 설정 */
+    grid-template-rows: auto auto 1fr auto; /* 각 행의 크기 설정 */
+    grid-template-areas:
+      "search"
+      "sub"
+      "content"
+      "pagenum";
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* .SearchBar 영역 */
+  .SearchBar {
+    grid-area: search; /* grid-template-areas에서 'search' 영역 지정 */
+    display: flex;
+    justify-content: flex-end; /* 오른쪽 정렬 */
+    align-items: center; /* 세로 가운데 정렬 */
+  }
+  
+  /* .SubNaviBar 영역 */
+  .SubNaviBar {
+    grid-area: sub; /* grid-template-areas에서 'sub' 영역 지정 */
+    border-radius: 8px;
+  }
+
+
+  .PageNumber{
+    grid-area:pagenum;
+  }
+  
+  /* .content 영역: 카드들이 위치할 곳 */
+  .content {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  .postItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .tableHeader, .postItem {
+    display: flex;
+    justify-content: space-between; /* 항목을 양쪽 끝으로 정렬 */
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 2px solid var(--line-color);
+}
+
+.title{
+  display: block;
+  width: 10px; /* 필요한 최대 길이로 조정 (너비 조정 가능) */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tableHeader {
+    font-weight: bold;
+}
+
+.tableColumn {
+    flex: 1;
+    text-align: center;
+}
+
+.postItem:hover {
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.postItem span {
+  font-size: 14px;
+}
+
+
+.tableHeader span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
+
+  
+  /* 768px 이하의 작은 화면에서 */
+  @media (max-width: 768px) {
+    /* .mpWrapper: Profile과 mpsmallWrapper을 세로로 배치 */
+    .mpWrapper {
+      grid-template-columns: 1fr; /* 한 열로 배치 */
+      grid-template-rows: auto auto; /* 세로 배치로 변경 */
+    }
+  
+    /* .Profile과 .mpsmallWrapper 모두 세로로 배치 */
+    .Profile {
+      grid-column: 1;
+    }
+  
+    .mpsmallWrapper {
+      grid-column: 1;
+      padding: 15px; /* 작은 화면에서 여백 줄이기 */
+    }
+  
+    /* .mpcontainer의 그리드 설정을 세로로 변경 */
+    .mpcontainer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px; /* 작은 화면에서 간격 줄이기 */  
+    }
+    /* .content의 카드들이 세로로 배치되도록 설정 */
+    .content {
+      flex-direction: column; 
+    }  
+  }
+  

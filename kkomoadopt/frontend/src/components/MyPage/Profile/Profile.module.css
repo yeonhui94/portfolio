@@ -1,0 +1,92 @@
+.profile-container {
+    width: 100%;
+    min-width: 350px;
+    background-color: var(--sub-color);
+    display: grid;
+    grid-template:
+        '... ... ...' 2fr
+        '... contents ...' 458px
+        '... ... ...' 3fr / 1fr 234px 1fr;
+    height: 788px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.profile-logo{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.profile-contents {
+    grid-area: contents;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.profile-img {
+    width: 234px;
+    height: 234px;
+    border-radius: 50%;  /* 원 모양으로 */
+    background-color: var(--title-white);
+    z-index: 9999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 234px;
+    min-height:234px
+}
+
+
+
+.profile-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.profile-name {
+    font-size: 30px;
+}
+
+.profile-text2 {
+    font-size: 16px;
+    padding-top: 18px;
+}
+
+.profile-btns {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+@media (max-width: 768px) {
+    .profile-container {
+        width: 100%;
+        min-width: 600px;
+        height: 468px;
+        display: flex;
+        padding: 40px;
+    }
+    .profile-contents{
+        flex-direction: column;
+        width: 100%;
+    }
+    .smallWrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+    }
+    .profile-btns{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start
+    }
+}

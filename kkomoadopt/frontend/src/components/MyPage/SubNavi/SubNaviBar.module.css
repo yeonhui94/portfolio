@@ -1,0 +1,16 @@
+.menuItem1 {
+    display:flow-root;  /* 텍스트를 포함하는 루트 박스로 설정 */
+    height: 35px;
+    /* margin-right: 55px; 메뉴 간의 고정 간격 */
+    margin-right: 27px;
+    font-size: 1rem;
+    color : var(--title-black);
+    font-family: var(--main-font);
+    position: relative;  /* 자식 요소의 위치를 조정할 수 있도록 설정 */
+    cursor: pointer;
+    padding-bottom: 10px;  
+    transition: font-size 0.4s ease, color 0.4s ease, transform 0.4s ease;
+    caret-color: transparent; 
+    /* 커서 세로줄 색깔 투명 */
+ 
+}

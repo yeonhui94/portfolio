@@ -1,0 +1,141 @@
+.rwWrapper {
+    width: 100%;
+    padding: 0 130px;
+  }
+  
+ 
+  .rwmaincontainer {
+    display: grid;
+    grid-template: 
+      "divider divider divider divider" auto 
+      "Card1 Card1 Card1 Card1" 1fr           
+      "Card1 Card1 Card1 Card1" 1fr          
+      "Card1 Card1 Card1 Card1" 1fr           
+      / 1fr 1fr 1fr 1fr;                      
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+  }
+  
+  .endcontainer{
+    padding: 20px;
+  }
+  
+ 
+  .rwmaincontainer > * {
+    width: 100%;
+  }
+  
+
+  .rwdivider {
+    grid-area: divider;
+    display: grid;
+    width: 100%;
+  }
+  
+
+  .Card1 {
+    grid-area: Card1;
+  }
+  
+
+  .rwsubcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .rwsubcontainer2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+  }
+  
+
+  .buttonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 0;
+    width: auto;
+  }
+  
+  
+  .btnContainer{
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+/* .pageButton {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+    background-color: white;
+    color: #333;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} */
+
+.pageButton:hover {
+    background-color: #f0f0f0;
+}
+
+.pageButton.active {
+    background-color: white;
+    color: var(--main-color);
+    border-color: black;
+}
+  
+  /* 1024px 이하: 3*3 그리드 */
+  @media (max-width: 1024px) {
+    .rwmaincontainer {
+      display: grid;
+      grid-template: 
+        "divider divider divider" auto
+        "Card1 Card1 Card1" 1fr
+        "Card1 Card1 Card1" 1fr
+        "Card1 Card1 Card1" 1fr 
+        "Card1 Card1 Card1" 1fr / 1fr 1fr 1fr; /* 3열로 설정 */
+      gap: 50px;
+    }
+  }
+  
+  /* 768px 이하: 1열로 세로 정렬, 3줄까지만 보이게 하고 스크롤 적용 */
+@media (max-width: 768px) {
+    .rwmaincontainer {
+      display: grid;
+      grid-template:
+        "divider" auto 
+        "Card1" 1fr / 1fr;  /* 1열로 설정 */
+
+    }
+  
+    .rwdivider {
+      grid-area: divider;
+    }
+  
+    .Card1 {
+      grid-area: Card1;
+    }
+  
+    .rwsubcontainer2 {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  }

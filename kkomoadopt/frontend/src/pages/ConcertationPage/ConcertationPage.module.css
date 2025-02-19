@@ -1,0 +1,13 @@
+.concertationPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+  position: relative;
+}
+
+.concertationPage {
+  width: 90%;
+  align-self: center;
+}

@@ -1,0 +1,68 @@
+.postheader{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 100%;
+}
+.postbtn{
+    display: flex;
+    justify-content: flex-end
+}
+.p{
+    color: #444444;
+    font-size: 1rem;
+    padding: 5px;
+    padding-bottom: 8px;
+    margin: 0;
+}
+.textarea{
+    height: auto;
+}
+
+.textareaWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;  /* 각 항목 간의 간격을 설정 */
+    border: 1px solid var(--mainpage-dark);;
+    padding: 10px;
+  }
+
+
+
+.fixedTextWrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;    
+  }
+
+.fixedText {
+  color: #444444;
+  font-size: 1rem;
+  width: auto;
+  white-space: nowrap;
+}
+
+.textareaField {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    /* border-radius: 5px; */
+  }
+
+  .textareaInput {
+    width: 100%;
+    height: 150px;
+    padding-left: 100px; /* 고정 텍스트 공간을 확보하기 위해 여백 설정 */
+    padding-top: 10px; /* 텍스트 위쪽에 약간의 여백 추가 */
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    font-size: 1rem;
+    outline: none;
+    resize: none; /* 크기 조정 방지 */
+  }
+  
+  .textareaInput:focus {
+    border-color: none;
+  }

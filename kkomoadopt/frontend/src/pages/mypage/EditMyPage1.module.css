@@ -1,0 +1,36 @@
+.EditMyPageDiv1 {
+    display : grid;
+    grid-template :
+    'title1 ... ...'80px
+    'title2 title2 title2' 80px
+    'input1 ... ...' 1fr/1fr 1fr 1fr;
+    margin-left : 20px;
+}
+
+.SecondDividerWrapper{
+    margin-top: 20px;
+    position: relative;
+}
+.SecondDividerWrapper::after{
+    content: '';
+    position: absolute;
+    width: 98%;
+    height: 2px;
+    background-color: var(--line-color, #000);
+}
+
+.input1Form{
+    margin-top : 10px;
+    display : grid;
+    grid-template :
+    'input2 btn1'100px
+    'text text' 1fr/ 400px 100px;
+}
+
+.ErrorMessage{
+    color: red;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left : 15px;
+    grid-area : text;
+}
