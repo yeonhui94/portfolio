@@ -56,7 +56,7 @@
   * Backend : Java, JPA
   * DataBase : HeidiSQL, MariaDB
   * ETC : Figma, drawio, Github
-- 상세 내용 : https://github.com/yeonhui94/portfolio/tree/master/kkomoadopt
+- 상세 내용 : https://github.com/yeonhui94/portfolio/tree/main/kkomoadopt
 </br></br>
 
 <h3 align="center">PITCHPLAY - 스포츠 매칭 플랫폼</h3>
@@ -71,7 +71,7 @@
   * Backend : Java, JPA
   * DataBase : HeidiSQL, MariaDB
   * ETC : Figma, drawio, Github
-- 상세 내용 : https://github.com/yeonhui94/portfolio/tree/master/kkomoadopt
+- 상세 내용 : https://github.com/yeonhui94/portfolio/tree/main/pitchplay
 </br></br>
 
 ## 기타 경력 사항
