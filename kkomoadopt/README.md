@@ -1,83 +1,43 @@
-# 조연희
-<table>
-  <tr>
-    <td>
-      <img src="https://i.imgur.com/YXsGXcx.jpeg" alt="Portfolio Image" width="250" />
-    </td>
-    <td>
-      <h2 align="center">
-  협업과 몰입 속에서 성장하는 과정이 즐겁다
-</h2>
-      <ul>
-        <li>이름 : 조연희</li> 
-        <li>나이 : 1994년생</li> 
-        <li>교육연수 : 소프트웨어인재개발원 (2024.06.26~2024.12.17)</li> 
-        <li>수상내역 :             
-            <ul>
-              <li>프론트엔드 구현 및 백엔드개발을 위한 풀스택 인재양성 과정 중 <strong>최우수상</strong> 수상</li>
-              <li>프론트엔드 구현 및 백엔드개발을 위한 풀스택 인재양성 과정 중 <strong>봉사상</strong> 수상</li>
-              <li>프론트엔드 구현 및 백엔드개발을 위한 풀스택 인재양성 과정 중 <strong>모범상</strong> 수상</li>
-            </ul></li> 
-        <li>노션 주소 : https://cat-ozraraptor-177.notion.site/18198a3cf220805d813ae90866e281a3?pvs=4 </li> 
-      </ul>
-    </td>
-  </tr>
-</table>
-
-배우는 과정 속에서 문제를 해결하는 즐거움과 협업의 힘을 깊이 느끼며 성장해왔습니다.
-새로운 도전을 통해 배우는 것 자체가 즐거웠고, 팀원들과 하나의 목표를 향해 나아가는 협업의 에너지는 정말 매력적이었습니다.
-지속적인 배움과 도전을 통해, 더 나은 개발자로 성장하기 위한 여정을 계속해 나가며, 함께 발전하는 길을 가고자 합니다.
- </br> </br>
-
-## 기술 스택
-- Frontend : HTML,CSS,JavaScript,React.js
-- Backend : Java, SpringBoot, JPA
-- Database : MariaDB
-- Environment : Visual Studio Code,IntelliJ IDEA,Postman
-- ETC : Figma
- </br> </br>
-
-## 프로젝트
-<h3 align="center">KKOMOADOPT - 유기견 입양 플랫폼</h3>
-<table>
-  <tr>
-    <td><img src="https://github.com/yeonhui94/image/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-02-18%20224457.png"/></td>
-    <td><img src="https://github.com/yeonhui94/image/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-02-18%20224551.png"/></td>
-  </tr>
-  </table>
-  </br>
-  
-- 기간 : 2024.11.04 ~ 2024.12.18
-- 참여 인원 : 8명
-- 소개</br>
-  유기견 입양 플랫폼으로, 유기견 입양 절차 간소화 및 입양 활성화 목적
-- 기술스택</br>
-  * Frontend : React.js, Framer Motion, HTML, CSS, JavaScript
-  * Backend : Java, JPA
-  * DataBase : HeidiSQL, MariaDB
-  * ETC : Figma, drawio, Github
-- 상세 내용 : https://github.com/yeonhui94/portfolio/tree/master/kkomoadopt
-</br></br>
-
-<h3 align="center">PITCHPLAY - 스포츠 매칭 플랫폼</h3>
-</br>
+<h1 align="center">KKOMOADOPT</h1>
+<img src="https://github.com/yeonhui94/image/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-02-18%20224551.png"/>
 
 - 기간 : 2024.11.04 ~ 2024.12.18
-- 참여 인원 : 8명
-- 소개</br>
-  축구 팀 매칭과 경기장 예약을 위한 플랫폼
-- 기술스택</br>
-  * Frontend : React.js, Framer Motion, HTML, CSS, JavaScript
-  * Backend : Java, JPA
-  * DataBase : HeidiSQL, MariaDB
-  * ETC : Figma, drawio, Github
-- 상세 내용 : https://github.com/yeonhui94/portfolio/tree/master/kkomoadopt
+- 역할
+  * 프론트엔드 개발</br>
+     - React.js를 활용한 사용자 인터페이스(UI) 구현 및 Framer Motion을 통한 시각적으로 흥미로운 메인 페이지 개발
+     - 모달창, 카드 이미지 등 다양한 컴포넌트 제작을 통해 개발 효율성을 높이고 개발 시간을 단축
+     - User와 Admin 페이지의 접근성 제한을 통해 보안을 강화
+     - 커뮤니티 페이지 제작을 통해 사용자들이 정보를 공유하고 소통할 수 있는 공간 제공
+  * 백엔드 개발</br>
+     - 커뮤니티 및 댓글 기능 구현을 통해 사용자 간 소통 지원
+     - CRUD 기능에 맞춰 데이터 생성, 조회, 수정, 삭제 기능 구현
+     - 데이터베이스 설계를 통해 안정적인 데이터 관리 및 성능 최적화
+     - JWT 인증을 활용한 사용자 인증 및 권한 관리 강화
+  * HeidiSQL을 통한 데이터 설계 및 더미데이터 생성</br>
+  * Restful API 연동을 통한 프론트엔드와 백엔드 연결
 </br></br>
 
-## 기타 경력 사항
-  - 효성ITX(2021.09~2024.02) : 영어 및 중국어 상담
-  - 솔레어카지노(2016.10~2018.12) : 한국어 통역 번역 및 중국어 통역 번역칩스 교환 및 정산, 현금 입출금 관리
+## 기여부분
+### 차별화된 메인 화면</br>
+메인 화면에 감성적인 입양 권장 문구를 배치하여, 유기견 입양의 중요성을 자연스럽게 전달하고 긍정적인 인식을 심어주었으며,
+Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기심을 자극하고 사이트의 몰입도를 높였습니다.</br>
+
+![main](https://github.com/yeonhui94/image/blob/main/main.gif)
 </br></br>
-## 연락처
-- GitHub: [yeonhui94](https://github.com/yeonhui94)
-- Email: yeonhui94@icloud.com
+
+### 커뮤니티 페이지</br>
+사용자들이 정보를 공유하고 소통할 수 있도록 다양한 커뮤니티 기능을 제공합니다.
+큰 카드의 첫 이미지는 주목을 끌고, 사용자가 카드를 hover할 때 큰 카드가 축소되며 작은 카드들이 부드럽게 등장하는 효과를 제공하므로써 추가적인 이미지 정보가 제공됩니다. 
+시각적 즐거움을 경험뿐만 아니라, 직관적으로 카드를 탐색할수있도록 만든 컴포넌트 입니다.</br>
+
+![review](https://github.com/yeonhui94/image/blob/main/review.gif)
+</br></br>
+
+### 마이페이지 기능 구현</br>
+마이페이지 기능에서는 프로필 사진 변경, 나의 댓글, 나의 글 기능을 구현하여 사용자가 자신의 활동을 쉽게 확인하고 관리할 수 있습니다. 이를 위해 마이페이지 틀을 구성하고, 각 섹션에서 사용자의 정보를 직관적으로 볼 수 있도록 디자인했습니다. 또한, 사용자 맞춤형 경험을 제공하며, user와 admin 페이지를 분리하여 보안을 강화했습니다.</br>
+
+![profilechange](https://github.com/yeonhui94/image/blob/main/profilechange.gif)
+</br></br>
+
+![profilechange](https://github.com/yeonhui94/image/blob/main/adminpage.gif)
+
