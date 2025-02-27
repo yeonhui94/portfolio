@@ -41,8 +41,8 @@
 <h3 align="center">KKOMOADOPT - 유기견 입양 플랫폼</h3>
 <table>
   <tr>
-    <td><img src="https://github.com/yeonhui94/image/blob/main/main1.jpg"/></td>
-    <td><img src="https://github.com/yeonhui94/image/blob/main/main1.jpg"/></td>
+    <td><img src="https://i.imgur.com/YETC5d2.jpeg"/></td>
+    <td><img src="https://i.imgur.com/n7ZNgpj.png"/></td>
   </tr>
   </table>
   </br>
