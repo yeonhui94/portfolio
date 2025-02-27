@@ -22,7 +22,7 @@
 메인 화면에 감성적인 입양 권장 문구를 배치하여, 유기견 입양의 중요성을 자연스럽게 전달하고 긍정적인 인식을 심어주었으며,
 Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기심을 자극하고 사이트의 몰입도를 높였습니다.</br>
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWo5NzJjNWRtNWl2ZmJqb2NuNjM1em8zNGtwdHAwbWtpa2EzdzlkdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e0RqrrduTSBrFmKVu5/giphy.gif" width="100%">
+![main](https://github.com/user-attachments/assets/bd0cc432-7ba4-485c-91f5-d81b8196be26)
 </br></br>
 
 ### 커뮤니티 페이지</br>
@@ -30,14 +30,13 @@ Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기�
 큰 카드의 첫 이미지는 주목을 끌고, 사용자가 카드를 hover할 때 큰 카드가 축소되며 작은 카드들이 부드럽게 등장하는 효과를 제공하므로써 추가적인 이미지 정보가 제공됩니다. 
 시각적 즐거움을 경험뿐만 아니라, 직관적으로 카드를 탐색할수있도록 만든 컴포넌트 입니다.</br>
 
-![review](https://github.com/yeonhui94/image/blob/main/review.gif)
+![review](https://github.com/user-attachments/assets/739e6b93-b80c-41ca-8bca-6cba3af1ec64)
 </br></br>
 
 ### 마이페이지 기능 구현</br>
 마이페이지 기능에서는 프로필 사진 변경, 나의 댓글, 나의 글 기능을 구현하여 사용자가 자신의 활동을 쉽게 확인하고 관리할 수 있습니다. 이를 위해 마이페이지 틀을 구성하고, 각 섹션에서 사용자의 정보를 직관적으로 볼 수 있도록 디자인했습니다. 또한, 사용자 맞춤형 경험을 제공하며, user와 admin 페이지를 분리하여 보안을 강화했습니다.</br>
 
-![profilechange](https://github.com/yeonhui94/image/blob/main/profilechange.gif)
+![profilechange](https://github.com/user-attachments/assets/b1d7e1f4-3abf-4448-a7cc-6ac8cc59df31)
 </br></br>
 
-![profilechange](https://github.com/yeonhui94/image/blob/main/adminpage.gif)
 
