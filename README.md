@@ -57,9 +57,10 @@
   * DataBase : HeidiSQL, MariaDB
   * ETC : Figma, drawio, Github
 - 상세 내용 : https://github.com/yeonhui94/portfolio/tree/main/kkomoadopt
-</br></br>
+</br></br></br></br>
 
 <h3 align="center">PITCHPLAY - 스포츠 매칭 플랫폼</h3>
+  <img src="https://i.imgur.com/RkyhNDY.jpeg"/>
 </br>
 
 - 기간 : 2024.11.04 ~ 2024.12.18
