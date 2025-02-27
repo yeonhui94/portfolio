@@ -15,15 +15,26 @@
      - JWT 인증을 활용한 사용자 인증 및 권한 관리 강화
   * HeidiSQL을 통한 데이터 설계 및 더미데이터 생성</br>
   * Restful API 연동을 통한 프론트엔드와 백엔드 연결
+  * PPT 제작
+  * 프로젝트 발표
+
 </br></br>
 
 ## 기여부분
 ### 차별화된 메인 화면</br>
 메인 화면에 감성적인 입양 권장 문구를 배치하여, 유기견 입양의 중요성을 자연스럽게 전달하고 긍정적인 인식을 심어주었으며,
-Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기심을 자극하고 사이트의 몰입도를 높였습니다.</br>
+스크롤이벤트, Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기심을 자극하고 사이트의 몰입도를 높였습니다.</br>
 
 ![main](https://github.com/user-attachments/assets/bd0cc432-7ba4-485c-91f5-d81b8196be26)
 </br></br>
+
+### 센터소개 화면<br/>
+React와 Framer Motion을 활용하여 사용자 친화적인 인터페이스와 부드러운 애니메이션을 구현하였습니다.
+CSS 모듈을 사용하여 컴포넌트 기반의 유지보수성을 높였습니다.
+Framer Motion을 통해 스크롤 시 동적 애니메이션 효과를 적용하여 더욱 몰입감 있는 사용자 경험을 제공합니다.
+
+![intro](https://github.com/user-attachments/assets/22256fa1-99ca-4f24-a28a-70a002d6eaaf)
+<br/><br/>
 
 ### 커뮤니티 페이지</br>
 사용자들이 정보를 공유하고 소통할 수 있도록 다양한 커뮤니티 기능을 제공합니다.
@@ -39,4 +50,9 @@ Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기�
 ![profilechange](https://github.com/user-attachments/assets/b1d7e1f4-3abf-4448-a7cc-6ac8cc59df31)
 </br></br>
 
+### 어드민 페이지 구현</br>
+이 코드는 React로 작성된 어드민 페이지로, 입양 공고를 관리하는 기능을 제공합니다. AdminPage에서는 관리자의 프로필과 네비게이션을 표시하고, AdoptionPostPage에서 공고 목록을 테이블 형식으로 보여주며, 검색과 필터링 기능을 제공합니다. useState와 useEffect를 사용해 상태를 관리하고, useNavigate로 페이지 이동을 처리합니다. 공고 상태를 수정하는 모달 창도 제공하며, 페이지네이션을 통해 많은 데이터를 효율적으로 관리할 수 있습니다.
+
+![adminpage](https://github.com/user-attachments/assets/74174139-d2cb-485a-91bc-ab0a1b724a8e)
+<br/><br/>
 
