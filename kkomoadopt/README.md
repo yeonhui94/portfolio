@@ -1,5 +1,5 @@
 <h1 align="center">KKOMOADOPT</h1>
-<img src="https://github.com/yeonhui94/image/blob/main/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202025-02-18%20224551.png"/>
+<img src="https://i.imgur.com/n7ZNgpj.png"/>
 
 - 기간 : 2024.11.04 ~ 2024.12.18
 - 역할
@@ -22,7 +22,7 @@
 메인 화면에 감성적인 입양 권장 문구를 배치하여, 유기견 입양의 중요성을 자연스럽게 전달하고 긍정적인 인식을 심어주었으며,
 Framermotion 및 다양한 에니메이션을 사용해, 방문자들의 호기심을 자극하고 사이트의 몰입도를 높였습니다.</br>
 
-![main](https://github.com/yeonhui94/image/blob/main/main.gif)
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWo5NzJjNWRtNWl2ZmJqb2NuNjM1em8zNGtwdHAwbWtpa2EzdzlkdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e0RqrrduTSBrFmKVu5/giphy.gif" width="100%">
 </br></br>
 
 ### 커뮤니티 페이지</br>
