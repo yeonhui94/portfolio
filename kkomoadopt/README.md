@@ -56,3 +56,9 @@ Framer Motion을 통해 스크롤 시 동적 애니메이션 효과를 적용하
 ![adminpage](https://github.com/user-attachments/assets/74174139-d2cb-485a-91bc-ab0a1b724a8e)
 <br/><br/>
 
+### 백엔드 개발<br/>
+     - 커뮤니티 및 댓글 기능 구현을 통해 사용자 간 소통 지원
+     - CRUD 기능에 맞춰 데이터 생성, 조회, 수정, 삭제 기능 구현
+     - 데이터베이스 설계를 통해 안정적인 데이터 관리 및 성능 최적화
+     - JWT 인증을 활용한 사용자 인증 및 권한 관리 강화
+
