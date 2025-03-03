@@ -73,6 +73,22 @@
   * DataBase : HeidiSQL, MariaDB
   * ETC : Figma, drawio, Github
 - 상세 내용 : https://github.com/yeonhui94/portfolio/tree/main/pitchplay
+</br></br></br></br>
+
+<h3 align="center">AI_Recipe_Maker</h3>
+  <img src="https://i.imgur.com/Au9fkvZ.png"/>
+  </br>
+
+  - 기간 : 2024.02.28 ~ 현재 진행 중
+  - 참여 인원 : 1명 (본인)
+  - 소개 </br>
+  - 냉장고 속 재료를 입력하면, 최적의 레시피를 추천하고 요리 방법까지 스마트하게 안내하는 AI 애플리케이션
+  - 기술스택</br>
+    * Frontend : React Native , Html, CSS, JavaScript
+    * Bactend : Java(Spring Boot)
+    * DataBase : MySQL
+    * ETC : Figma, Github
+  - 상세내용 : https://github.com/yeonhui94/Ai_Recipe_Maker
 </br></br>
 
 ## 기타 경력 사항
